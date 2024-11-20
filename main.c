@@ -11,12 +11,12 @@ int main()
         }
         printf("\n");
     }
-    int i,j;
-    for(i=9;i>=1;i--)
+    int m,n;
+    for(m=9;m>=1;m--)
     {
-        for(j=1;j<=i;j++)
+        for(n=1;n<=m;n++)
         {
-            printf("%d*%d=%2d ",i,j,i*j);
+            printf("%d*%d=%2d ",m,n,m*n);
         }
         printf("\n");
     }
